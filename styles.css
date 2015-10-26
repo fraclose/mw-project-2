@@ -1,0 +1,325 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 640px;
+  width: 100%;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg');
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 157px;
+  height: 100px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png');
+  background-repeat: no-repeat;
+  text-indent: 150%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 34px;
+/*  border: solid;*/
+}
+
+ul.nav {
+list-style-type: none;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 18px;
+  margin: 28px;
+  margin-right: 35px;
+  margin-top: 35px;
+}
+
+a.nav-links {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.hero-intro{
+  padding-top: 70px;
+}
+
+h1.hero-title {
+  color: #FFFFFF;
+  font-size: 92px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.hero-sub {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+}
+
+.intro {
+  color: #C3BFBF;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 56px;
+  text-align: center;
+  width: 844px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+#divider{
+  padding-top: 45px;
+}
+
+.course-goals {
+  padding-top: 100px;
+  padding-left: 55px;
+  border: solid;
+}
+
+h1.course-goals-title {
+  color: #777777;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2.goals-sub {
+  color: #777777;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.course-goals-list {
+  color: #777777;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 26px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-goals-list:nth-child(3) {
+  clear: left;
+}
+
+.course-goals-list li {
+  float: left;
+  width: 31%;
+  height: 250px;
+  margin: 1%;
+}
+
+.course-goals-list li:nth-child(3n+1) {
+  clear: left;
+}
+
+.co-learning {
+  border: solid;
+  clear: both;
+}
+
+h1.co-learners-title {
+  color: #444444;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.name {
+  color: #444444;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.co-learners {
+  list-style-type: none;
+  text-align: center;
+}
+
+.co-learners > li {
+  float: left;
+  width: 20%;
+  height: 300px;
+  margin: 1%;
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+
+.co-learners li:nth-child(4n+1) {
+  clear: left
+}
+
+.photo {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.social-links {
+  text-align: center;
+  padding: 0px;
+}
+
+.social-links li {
+  margin: 1px;
+  display: inline-block;
+}
+
+.facebook {
+  width: 20px;
+  height: 20px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/slice.png');
+  background-repeat: no-repeat;
+  background-position: -35px;
+  display: block;
+  text-indent: 150%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.twitter {
+  width: 20px;
+  height: 20px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/slice.png');
+  background-repeat: no-repeat;
+  background-position: 1px;
+  display: block;
+  text-indent: 150%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h1.course-details{
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.instructor-wrap {
+  border: 1px solid red;
+  position: relative;
+  clear: both;
+}
+
+.instructor-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/instructor.jpg');
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  background-position: relative;
+}
+
+.instructor-info {
+  z-index: 100;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 40%;
+  color: white;
+  float: left;
+}
+
+h1.instructor {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2.instructor-name{
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+p.instructor-company {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: -25px;
+}
+
+p.instructor-bio {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 40px;
+}
+
+.quote {
+  height: 300px;
+  text-align: center;
+  padding-top: 50px;
+  width: 900px;
+  margin: auto;
+  border: solid 2px;
+}
+
+.quote-text {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 48px;
+  color: #e66244;
+}
+
+.quote-name {
+  color: #AAAAAA;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.quote-title {
+  color: AAAAAA;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a.quote-link {
+  color: #AAAAAA;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.details{
+    background-color: #e66244;
+}
+
+.details-list{
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 145px;
+}
+
+.sign-up-button{
+  border: 2px solid;
+  color: white;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 10px 40px;
+}
+
+.footer-logo{
+  text-align: left;
+}
