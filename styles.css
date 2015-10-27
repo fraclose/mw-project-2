@@ -10,8 +10,13 @@ header {
 }
 
 .logo {
+<<<<<<< HEAD
+  width: 157px;
+  height: 100px;
+=======
   height: 100px;
   width: 157px;
+>>>>>>> origin/gh-pages
   background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png');
   background-repeat: no-repeat;
   text-indent: 150%;
@@ -23,14 +28,30 @@ header {
 
 /* Navigation Styles */
 ul.nav {
+<<<<<<< HEAD
+list-style-type: none;
+position: absolute;
+top: 0;
+right: 0;
+=======
 position: absolute;
 top: 0;
 right: 0;
 list-style-type: none;
+>>>>>>> origin/gh-pages
 }
 
 .nav li {
   display: inline-block;
+<<<<<<< HEAD
+  font-size: 18px;
+  margin: 28px;
+  margin-right: 35px;
+  margin-top: 35px;
+}
+
+a.nav-links {
+=======
   margin: 28px;
   margin-right: 35px;
   margin-top: 35px;
@@ -39,14 +60,21 @@ list-style-type: none;
 
 a.nav-links {
   position: relative;
+>>>>>>> origin/gh-pages
   text-decoration: none;
   color: white;
   font-weight: 500;
   line-height: 21px;
   text-transform: uppercase;
+<<<<<<< HEAD
+  position: relative;
+}
+
+=======
 }
 
 /* Hero Styles */
+>>>>>>> origin/gh-pages
 .hero-intro{
   padding-top: 70px;
 }
@@ -66,7 +94,10 @@ h1.hero-title {
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
 /* Intro Styles */
+>>>>>>> origin/gh-pages
 .intro {
   color: #C3BFBF;
   font-size: 32px;
@@ -130,10 +161,16 @@ h2.goals-sub {
   clear: left;
 }
 
+<<<<<<< HEAD
+.co-learning {
+  border: solid;
+  clear: both;
+=======
 /* Co-Learners Styles */
 .co-learning {
   clear: both;
   border: solid;
+>>>>>>> origin/gh-pages
 }
 
 h1.co-learners-title {
@@ -220,7 +257,10 @@ h1.course-details{
   overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
 /* Instructor Styles */
+>>>>>>> origin/gh-pages
 .instructor-wrap {
   border: 1px solid red;
   position: relative;
@@ -273,7 +313,10 @@ p.instructor-bio {
   margin-top: 40px;
 }
 
+<<<<<<< HEAD
+=======
 /* Quote Styles */
+>>>>>>> origin/gh-pages
 .quote {
   height: 300px;
   text-align: center;
@@ -308,7 +351,10 @@ a.quote-link {
   font-weight: 300;
 }
 
+<<<<<<< HEAD
+=======
 /* Details Styles */
+>>>>>>> origin/gh-pages
 .details{
     background-color: #e66244;
 }
@@ -328,7 +374,10 @@ a.quote-link {
   padding: 10px 40px;
 }
 
+<<<<<<< HEAD
+=======
 /* Footer Styles */
+>>>>>>> origin/gh-pages
 .footer-logo{
   text-align: left;
 }
