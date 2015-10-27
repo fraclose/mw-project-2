@@ -10,8 +10,8 @@ header {
 }
 
 .logo {
-  width: 157px;
   height: 100px;
+  width: 157px;
   background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png');
   background-repeat: no-repeat;
   text-indent: 150%;
@@ -23,29 +23,30 @@ header {
 
 /* Navigation Styles */
 ul.nav {
-list-style-type: none;
 position: absolute;
 top: 0;
 right: 0;
+list-style-type: none;
 }
 
 .nav li {
   display: inline-block;
-  font-size: 18px;
   margin: 28px;
   margin-right: 35px;
   margin-top: 35px;
+  font-size: 18px;
 }
 
 a.nav-links {
+  position: relative;
   text-decoration: none;
   color: white;
   font-weight: 500;
   line-height: 21px;
   text-transform: uppercase;
-  position: relative;
 }
 
+/* Hero Styles */
 .hero-intro{
   padding-top: 70px;
 }
@@ -65,6 +66,7 @@ h1.hero-title {
   text-align: center;
 }
 
+/* Intro Styles */
 .intro {
   color: #C3BFBF;
   font-size: 32px;
@@ -128,9 +130,10 @@ h2.goals-sub {
   clear: left;
 }
 
+/* Co-Learners Styles */
 .co-learning {
-  border: solid;
   clear: both;
+  border: solid;
 }
 
 h1.co-learners-title {
@@ -217,6 +220,7 @@ h1.course-details{
   overflow: hidden;
 }
 
+/* Instructor Styles */
 .instructor-wrap {
   border: 1px solid red;
   position: relative;
@@ -269,6 +273,7 @@ p.instructor-bio {
   margin-top: 40px;
 }
 
+/* Quote Styles */
 .quote {
   height: 300px;
   text-align: center;
@@ -303,6 +308,7 @@ a.quote-link {
   font-weight: 300;
 }
 
+/* Details Styles */
 .details{
     background-color: #e66244;
 }
@@ -322,6 +328,7 @@ a.quote-link {
   padding: 10px 40px;
 }
 
+/* Footer Styles */
 .footer-logo{
   text-align: left;
 }
