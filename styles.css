@@ -240,7 +240,7 @@ h1.course-details{
 .instructor-info {
   position: absolute;
   z-index: 100;
-  top: 100px;
+  top: 120px;
   left: 50px;
   width: 40%;
   float: left;
