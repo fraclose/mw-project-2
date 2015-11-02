@@ -21,6 +21,7 @@ header {
 /*  border: solid;*/
 }
 
+/*navigation styles*/
 ul.nav {
 list-style-type: none;
 position: absolute;
@@ -45,6 +46,7 @@ a.nav-links {
   position: relative;
 }
 
+/*hero styles*/
 .hero-intro{
   padding-top: 70px;
 }
@@ -64,6 +66,7 @@ h1.hero-title {
   text-align: center;
 }
 
+/*intro styles*/
 .intro {
   color: #C3BFBF;
   font-size: 32px;
@@ -79,6 +82,7 @@ h1.hero-title {
   padding-top: 45px;
 }
 
+/*course goals styles*/
 .course-goals {
   padding-top: 100px;
   padding-left: 55px;
@@ -126,6 +130,7 @@ h2.goals-sub {
   clear: left;
 }
 
+/*co-learning styles*/
 .co-learning {
   border: solid;
   clear: both;
@@ -204,6 +209,7 @@ h1.co-learners-title {
   overflow: hidden;
 }
 
+/*course details styles*/
 h1.course-details{
   position: absolute;
   margin: -1px;
@@ -215,6 +221,7 @@ h1.course-details{
   overflow: hidden;
 }
 
+/*instructor styles*/
 .instructor-wrap {
   border: 1px solid red;
   position: relative;
@@ -267,6 +274,7 @@ p.instructor-bio {
   margin-top: 40px;
 }
 
+/*quote styles*/
 .quote {
   height: 300px;
   text-align: center;
@@ -301,6 +309,7 @@ a.quote-link {
   font-weight: 300;
 }
 
+/*footer detail styles*/
 .details{
     background-color: #e66244;
 }
@@ -320,6 +329,7 @@ a.quote-link {
   padding: 10px 40px;
 }
 
+/*footer styles*/
 .footer-logo{
   text-align: left;
 }
