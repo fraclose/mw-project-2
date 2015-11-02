@@ -10,40 +10,40 @@ header {
 }
 
 .logo {
-  width: 157px;
+  margin-left: 34px;
   height: 100px;
-  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png');
-  background-repeat: no-repeat;
+  width: 157px;
   text-indent: 150%;
   white-space: nowrap;
   overflow: hidden;
-  margin-left: 34px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png');
+  background-repeat: no-repeat;
 /*  border: solid;*/
 }
 
 /*navigation styles*/
 ul.nav {
-list-style-type: none;
-position: absolute;
-top: 0;
-right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style-type: none;
 }
 
 .nav li {
   display: inline-block;
-  font-size: 18px;
   margin: 28px;
   margin-right: 35px;
   margin-top: 35px;
+  font-size: 18px;
 }
 
 a.nav-links {
-  text-decoration: none;
-  color: white;
+  position: relative;
   font-weight: 500;
   line-height: 21px;
+  text-decoration: none;
   text-transform: uppercase;
-  position: relative;
+  color: white;
 }
 
 /*hero styles*/
@@ -52,30 +52,30 @@ a.nav-links {
 }
 
 h1.hero-title {
-  color: #FFFFFF;
   font-size: 92px;
   font-weight: 100;
   text-align: center;
+  color: #FFFFFF;
 }
 
 .hero-sub {
-  color: #FFFFFF;
   font-size: 24px;
   font-weight: 300;
   line-height: 28px;
   text-align: center;
+  color: #FFFFFF;
 }
 
 /*intro styles*/
 .intro {
-  color: #C3BFBF;
+  width: 844px;
+  margin: auto;
+  padding-top: 150px;
   font-size: 32px;
   font-weight: 300;
   line-height: 56px;
   text-align: center;
-  width: 844px;
-  margin: auto;
-  padding-top: 150px;
+  color: #C3BFBF;
 }
 
 #divider{
@@ -90,29 +90,29 @@ h1.hero-title {
 }
 
 h1.course-goals-title {
-  color: #777777;
-  font-weight: 500;
   font-size: 28px;
+  font-weight: 500;
   line-height: 32px;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
+  color: #777777;
 }
 
 h2.goals-sub {
-  color: #777777;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
+  color: #777777;
 }
 
 .course-goals-list {
-  color: #777777;
-  font-weight: 300;
+  padding: 0;
   font-size: 17px;
+  font-weight: 300;
   line-height: 26px;
   list-style-type: none;
-  padding: 0;
+  color: #777777;
 }
 
 .course-goals-list:nth-child(3) {
