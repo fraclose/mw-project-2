@@ -4,7 +4,6 @@ $gray-light: #C3BFBF;
 $gray-mid: #777777;
 $gray-dark: #444444;
 
-
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -14,6 +13,12 @@ header {
   width: 100%;
   background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg');
   background-repeat: no-repeat;
+}
+
+.header-wrap{
+  border: 1px solid red;
+  position: relative;
+  clear: both;
 }
 
 .logo {
