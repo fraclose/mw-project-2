@@ -1,3 +1,7 @@
+/*colors*/
+$red: #ff3300;
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -311,7 +315,7 @@ a.quote-link {
 
 /*footer detail styles*/
 .details{
-    background-color: #e66244;
+    background-color: $red;
 }
 
 .details-list{
