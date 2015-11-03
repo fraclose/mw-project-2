@@ -83,7 +83,7 @@ h1.hero-title {
   padding-left: 55px;
   border: solid; }
 
-h1 {
+h1.course-goals-title {
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
@@ -91,7 +91,7 @@ h1 {
   text-transform: uppercase;
   color: #777777; }
 
-h2 {
+h2.goals-sub {
   font-size: 16px;
   font-weight: 500;
   line-height: 18px;
