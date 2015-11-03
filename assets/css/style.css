@@ -8,6 +8,11 @@ header {
   background-image: url("http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg");
   background-repeat: no-repeat; }
 
+.header-wrap {
+  border: 1px solid red;
+  position: relative;
+  clear: both; }
+
 .logo {
   margin-left: 34px;
   height: 100px;
