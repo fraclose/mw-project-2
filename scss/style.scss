@@ -8,17 +8,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.header-wrap{
+  border: 1px solid red;
+  position: relative;
+  clear: both;
+}
+
 header {
   height: 640px;
   width: 100%;
   background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg');
   background-repeat: no-repeat;
-}
-
-.header-wrap{
-  border: 1px solid red;
-  position: relative;
-  clear: both;
 }
 
 .logo {
