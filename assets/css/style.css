@@ -80,8 +80,7 @@ h1.hero-title {
 /*course goals styles*/
 .course-goals {
   padding-top: 100px;
-  padding-left: 55px;
-  border: solid; }
+  padding-left: 55px; }
 
 h1.course-goals-title {
   font-size: 28px;
@@ -120,7 +119,9 @@ h2.goals-sub {
 
 /*co-learning styles*/
 .co-learning {
-  clear: both; }
+  clear: both;
+  border: solid;
+  background-color: #fafafa; }
 
 h1.co-learners-title {
   font-size: 28px;
