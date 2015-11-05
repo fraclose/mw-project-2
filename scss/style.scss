@@ -287,7 +287,6 @@ p.instructor-bio {
 }
 
 /*quote styles*/
-/**BLOCK QUOTE**/
 
 .blockquote {
   width: 903px;
@@ -351,10 +350,14 @@ p.instructor-bio {
     margin-bottom: 40px;
 }
 
-.sign-up-button{
-  padding: 10px 40px;
-  border: 2px solid;
-  color: white;
+.sign-up-button {
+  margin-right: 90px;
+  width: 327px;
+  height: 98px;
+  float: right;
+  font-size: 30px;
+  border: 4px solid;
+  color: #ffffff;
   text-transform: uppercase;
   background-color: transparent;
 }
