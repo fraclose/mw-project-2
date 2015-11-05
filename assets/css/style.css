@@ -244,34 +244,42 @@ p.instructor-bio {
   line-height: 28px; }
 
 /*quote styles*/
+/**BLOCK QUOTE**/
+.blockquote {
+  width: 903px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-family: roboto, tahoma, arial; }
+
 .quote {
-  margin: auto;
-  padding-top: 50px;
-  width: 900px;
-  height: 300px;
+  margin-top: 170px;
+  color: #E66244;
   text-align: center;
-  border: solid 2px; }
-
-.quote-text {
   font-size: 48px;
+  line-height: 64px;
   font-weight: 300;
-  font-style: italic;
-  color: #e66244; }
+  font-style: italic; }
 
-.quote-name {
+.quoted {
+  margin-top: 74px;
+  display: block;
+  text-align: center;
+  color: #AAA;
   font-size: 22px;
-  font-weight: 300;
-  color: #AAAAAA; }
+  line-height: 25px;
+  font-weight: 500; }
 
-.quote-title {
+.quoted-details {
+  display: block;
   font-size: 16px;
-  font-weight: 300;
-  color: #AAAAAA; }
+  line-height: 24px;
+  font-weight: 500; }
 
-a.quote-link {
-  font-size: 16px;
-  font-weight: 300;
-  color: #AAAAAA; }
+.quoted-details-link {
+  display: block;
+  color: #AAA;
+  margin-bottom: 111px; }
 
 /*footer detail styles*/
 .details {
