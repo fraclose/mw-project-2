@@ -326,11 +326,20 @@ a.quote-link {
     background-color: $red;
 }
 
-.details-list{
-  padding-top: 145px;
+.details-list {
   list-style: none;
-  font-family: sans-serif;
-  color: white;
+  padding-top: 141px;
+  color: #fff;
+  margin-left: 92px;
+  margin-bottom: 200px;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 300;
+}
+
+.class-size {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .sign-up-button{
