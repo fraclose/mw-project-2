@@ -98,7 +98,6 @@ h1.hero-title {
 .course-goals {
   padding-top: 100px;
   padding-left: 55px;
-  border: solid;
 }
 
 h1.course-goals-title {
@@ -145,6 +144,8 @@ h2.goals-sub {
 /*co-learning styles*/
 .co-learning {
   clear: both;
+  border: solid;
+  background-color: #fafafa;
 }
 
 h1.co-learners-title {
