@@ -144,7 +144,7 @@ h2.goals-sub {
 /*co-learning styles*/
 .co-learners {
   clear: both;
-  border: solid;
+  // border: solid;
   background-color: #fafafa;
 }
 
@@ -332,6 +332,7 @@ p.instructor-bio {
 /*footer detail styles*/
 .details{
     background-color: $red;
+    background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg');
 }
 
 .details-list {
