@@ -355,6 +355,8 @@ p.instructor-bio {
 }
 
 .sign-up-button {
+  position: relative;
+  z-index: 100;
   margin-right: 90px;
   width: 327px;
   height: 98px;
@@ -368,7 +370,7 @@ p.instructor-bio {
 
 /*footer styles*/
 .footer-logo{
-  text-align: left;
   position: relative;
   z-index: 100;
+  text-align: left;
 }
