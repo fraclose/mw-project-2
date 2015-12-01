@@ -316,6 +316,7 @@ p.instructor-bio {
 
 /*footer styles*/
 .footer {
+  background-color: red;
   position: relative;
   z-index: 100;
   clear: both; }
