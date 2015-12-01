@@ -369,6 +369,12 @@ p.instructor-bio {
 }
 
 /*footer styles*/
+.footer {
+  position: relative;
+  z-index: 100;
+  clear: both;
+}
+
 .footer-logo{
   position: relative;
   z-index: 100;

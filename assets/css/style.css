@@ -302,6 +302,8 @@ p.instructor-bio {
   margin-bottom: 40px; }
 
 .sign-up-button {
+  position: relative;
+  z-index: 100;
   margin-right: 90px;
   width: 327px;
   height: 98px;
@@ -313,6 +315,12 @@ p.instructor-bio {
   background-color: transparent; }
 
 /*footer styles*/
+.footer {
+  position: relative;
+  z-index: 100;
+  clear: both; }
+
 .footer-logo {
-  text-align: left;
-  z-index: 100; }
+  position: relative;
+  z-index: 100;
+  text-align: left; }
