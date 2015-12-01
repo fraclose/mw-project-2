@@ -47,13 +47,13 @@ a.nav-links {
 
 /*hero styles*/
 .hero-intro {
-  padding-top: 170px; }
+  padding-top: 70px; }
 
 h1.hero-title {
   font-size: 92px;
   font-weight: 100;
   text-align: center;
-  color: #FFFFFF; }
+  color: #red; }
 
 .hero-sub {
   font-size: 24px;
