@@ -327,4 +327,5 @@ p.instructor-bio {
   text-indent: 150%;
   white-space: nowrap;
   overflow: hidden;
-  text-align: left; }
+  text-align: left;
+  background-color: red; }
