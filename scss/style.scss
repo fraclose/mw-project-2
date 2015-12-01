@@ -1,18 +1,29 @@
+/*colors*/
+$red: #e66244;
+$gray-light: #C3BFBF;
+$gray-mid: #777777;
+$gray-dark: #444444;
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+.header-wrap{
+  position: relative;
+  clear: both;
+}
+
 header {
-  height: 640px;
   width: 100%;
+  height: 640px;
   background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg');
   background-repeat: no-repeat;
 }
 
 .logo {
+  width: 157px;
   margin-left: 34px;
   height: 100px;
-  width: 157px;
   text-indent: 150%;
   white-space: nowrap;
   overflow: hidden;
@@ -48,7 +59,7 @@ a.nav-links {
 
 /*hero styles*/
 .hero-intro{
-  padding-top: 70px;
+  padding-top: 170px;
 }
 
 h1.hero-title {
@@ -75,7 +86,7 @@ h1.hero-title {
   font-weight: 300;
   line-height: 56px;
   text-align: center;
-  color: #C3BFBF;
+  color: $gray-light;
 }
 
 #divider{
@@ -86,7 +97,6 @@ h1.hero-title {
 .course-goals {
   padding-top: 100px;
   padding-left: 55px;
-  border: solid;
 }
 
 h1.course-goals-title {
@@ -95,7 +105,7 @@ h1.course-goals-title {
   line-height: 32px;
   text-align: center;
   text-transform: uppercase;
-  color: #777777;
+  color: $gray-mid;
 }
 
 h2.goals-sub {
@@ -103,7 +113,7 @@ h2.goals-sub {
   font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
-  color: #777777;
+  color: $gray-mid;
 }
 
 .course-goals-list {
@@ -112,7 +122,7 @@ h2.goals-sub {
   font-weight: 300;
   line-height: 26px;
   list-style-type: none;
-  color: #777777;
+  color: $gray-mid;
 }
 
 .course-goals-list:nth-child(3) {
@@ -131,9 +141,10 @@ h2.goals-sub {
 }
 
 /*co-learning styles*/
-.co-learning {
-  border: solid;
+.co-learners {
   clear: both;
+  border: solid;
+  background-color: #fafafa;
 }
 
 h1.co-learners-title {
@@ -142,13 +153,13 @@ h1.co-learners-title {
   line-height: 32px;
   text-transform: uppercase;
   text-align: center;
-  color: #444444;
+  color: $gray-dark;
 }
 
 .name {
   font-size: 22px;
   font-weight: 500;
-  color: #444444;
+  color: $gray-dark;
 }
 
 .co-learners {
@@ -275,56 +286,78 @@ p.instructor-bio {
 }
 
 /*quote styles*/
-.quote {
-  margin: auto;
-  padding-top: 50px;
-  width: 900px;
-  height: 300px;
-  text-align: center;
-  border: solid 2px;
+
+.blockquote {
+  width: 903px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-family: roboto, tahoma, arial;
 }
 
-.quote-text {
+.quote {
+  margin-top: 170px;
+  color: #E66244;
+  text-align: center;
   font-size: 48px;
+  line-height: 64px;
   font-weight: 300;
   font-style: italic;
-  color: #e66244;
 }
 
-.quote-name {
+.quoted {
+  margin-top: 74px;
+  display: block;
+  text-align: center;
+  color: #AAA;
   font-size: 22px;
-  font-weight: 300;
-  color: #AAAAAA;
+  line-height: 25px;
+  font-weight: 500;
 }
 
-.quote-title {
+.quoted-details {
+  display: block;
   font-size: 16px;
-  font-weight: 300;
-  color: #AAAAAA;
+  line-height: 24px;
+  font-weight: 500;
 }
 
-a.quote-link {
-  font-size: 16px;
-  font-weight: 300;
-  color: #AAAAAA;
+.quoted-details-link {
+  display: block;
+  color: #AAA;
+  margin-bottom: 111px;
 }
 
 /*footer detail styles*/
 .details{
-    background-color: #e66244;
+    // background-color: $red;
+    background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg');
 }
 
-.details-list{
-  padding-top: 145px;
+.details-list {
+  padding-top: 141px;
+  margin-left: 92px;
+  margin-bottom: 200px;
   list-style: none;
-  font-family: sans-serif;
-  color: white;
+  font-size: 36px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 38px;
 }
 
-.sign-up-button{
-  padding: 10px 40px;
-  border: 2px solid;
-  color: white;
+.class-size {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sign-up-button {
+  margin-right: 90px;
+  width: 327px;
+  height: 98px;
+  float: right;
+  font-size: 30px;
+  border: 4px solid;
+  color: #ffffff;
   text-transform: uppercase;
   background-color: transparent;
 }

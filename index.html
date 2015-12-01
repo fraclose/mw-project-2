@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,300italic' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -9,18 +10,31 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Goolge Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70195437-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </head>
 
 <body>
 
   <!-- Logo + Nav -->
-  <header>
+  <header class="header-wrap">
   <h1 class="logo"><a href="http://workthefactory.com/"><img src="http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png" height=100 width=157 alt="The Factory">The Factory</a></h1>
 
   <nav>
     <ul class="nav">
-      <li><a class="nav-links"href=“”>Description1</a></li>
+      <li><a class="nav-links"href=“”>Description</a></li>
       <li><a class="nav-links"href=“”>CoLearners</a></li>
       <li><a class="nav-links"href=“”>Instructor</a></li>
       <li><a class="nav-links"href=“”>Sign Up</a></li>
@@ -73,7 +87,7 @@
   </section>
 
   <!-- CoLearners -->
-  <section class="co-learning">
+  <section class="co-learners">
     <h1 class="co-learners-title">Meet the CoLearners</h1>
     <ul class="co-learners">
       <li>
@@ -201,12 +215,11 @@
   </article>
 
   <!-- Quote -->
-  <figure class="quote">
-    <blockquote class="quote-text">
-      <p>The ability to learn in-person from an expert instructor as well as work
-      alongside other peers in the area is invaluable.</p>
+  <figure class="blockquote">
+    <blockquote>
+      <p class="quote">"The ability to learn in-person from an expert instructor as well as work alonside other peers in the area is invaluable."</p>
     </blockquote>
-    <figcaption class="quote-name">Adam DeLong <span class="quote-title">coLearner and graduate of</span> <a class="quote-link" href="#">Intro to Ruby</a></figcaption>
+    <figcaption class="quoted">Adam Delong <span class="quoted-details">coLearner and graduate of <a class="quoted-details-link" href="#">Intro to Ruby</a></span></figcaption>
   </figure>
 
   <!-- Details -->
@@ -217,7 +230,7 @@
       <li>Every Mon 6pm–8:30</li>
       <li>Orientation: Sept 9th</li>
       <li>Graduation: Dec 9th</li>
-      <li>Class size: 20 students</li>
+      <li class='class-size'>Class size: 20 students</li>
       <li>Cost: $800</li>
     </ul>
 
