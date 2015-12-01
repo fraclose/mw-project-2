@@ -3,7 +3,6 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .header-wrap {
-  border: 1px solid red;
   position: relative;
   clear: both; }
 
@@ -48,7 +47,7 @@ a.nav-links {
 
 /*hero styles*/
 .hero-intro {
-  padding-top: 70px; }
+  padding-top: 170px; }
 
 h1.hero-title {
   font-size: 92px;
@@ -282,7 +281,7 @@ p.instructor-bio {
 
 /*footer detail styles*/
 .details {
-  background-color: #e66244; }
+  background-image: url("http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg"); }
 
 .details-list {
   padding-top: 141px;
