@@ -321,6 +321,7 @@ p.instructor-bio {
   clear: both; }
 
 .footer-logo {
-  position: relative;
-  z-index: 100;
+  text-indent: 150%;
+  white-space: nowrap;
+  overflow: hidden;
   text-align: left; }
