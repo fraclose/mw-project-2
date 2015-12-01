@@ -66,7 +66,7 @@ h1.hero-title {
   font-size: 92px;
   font-weight: 100;
   text-align: center;
-  color: #red;
+  color: #FFFFFF;
 }
 
 .hero-sub {
@@ -332,6 +332,7 @@ p.instructor-bio {
 .details{
     // background-color: $red;
     background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg');
+    background-repeat: no-repeat;
 }
 
 .details-list {
