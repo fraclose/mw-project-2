@@ -119,7 +119,7 @@ h2.goals-sub {
 /*co-learning styles*/
 .co-learners {
   clear: both;
-  border: solid;
+  border: red, 1px;
   background-color: #fafafa; }
 
 h1.co-learners-title {
