@@ -169,7 +169,6 @@ h1.co-learners-title {
 }
 
 .co-learners > li {
-  clear: both;
   float: left;
   width: 20%;
   height: 300px;
@@ -371,7 +370,7 @@ p.instructor-bio {
 
 /*footer styles*/
 .footer {
-  background-color: red;
+  background-color: $red;
   position: relative;
   z-index: 100;
   clear: both;
