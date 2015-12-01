@@ -118,6 +118,7 @@ h2.goals-sub {
 
 /*co-learning styles*/
 .co-learners {
+  position: relative;
   clear: both;
   border: solid red;
   border-width: 1px;
@@ -305,6 +306,7 @@ p.instructor-bio {
   position: relative;
   z-index: 100;
   margin-right: 90px;
+  margin-top: -430px;
   width: 327px;
   height: 98px;
   float: right;
